@@ -12,6 +12,8 @@ router.put("/resetpassword", ctrls.resetPassword);
 router.get("/", [verifyToken, isAdmin], ctrls.getUser);
 router.delete("/", [verifyToken, isAdmin], ctrls.deleteUser);
 router.put("/current", [verifyToken], ctrls.updateUser);
+router.put("/address", [verifyToken], ctrls.updateAddress);
+router.put("/cart", [verifyToken], ctrls.updateCart);
 router.put("/:uid", [verifyToken, isAdmin], ctrls.updateUserByAdmin);
 
 // CRUD | Create - Read - Update - Delete | POST - GET - PUT - DELETEeee
