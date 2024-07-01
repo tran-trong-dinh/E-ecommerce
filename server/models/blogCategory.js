@@ -8,11 +8,10 @@ var blogCategorySchema = new mongoose.Schema(
       required: true,
       unique: true,
       index: true,
+      timestamps: true,
     },
   },
-  {
-    timestamps: true,
-  }
+  { timestamps: true }
 );
 
 //Export the model
