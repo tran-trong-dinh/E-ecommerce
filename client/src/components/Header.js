@@ -6,7 +6,7 @@ import path from "../ultils/path";
 const Header = () => {
   const { RiPhoneFill, MdEmail, FaUserCircle, BsHandbagFill } = icons;
   return (
-    <div className="border flex justify-between w-main h-[110px] py-[35px]">
+    <div className="flex justify-between w-main h-[110px] py-[35px]">
       <Link to={`/${path.HOME}`}>
         <img src={logo} alt="" className="w-[234px object-contain" />
       </Link>

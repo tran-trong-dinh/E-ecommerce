@@ -3,7 +3,7 @@ import { Navigate } from "../ultils/contants";
 import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
-    <div className="w-main h-[48px] py-2 border text-sm flex items-center border-y">
+    <div className="w-main h-[48px] py-2 text-sm flex items-center border-y mb-6">
       {Navigate.map((el) => (
         <NavLink
           to={el.path}
