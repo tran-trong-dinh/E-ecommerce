@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { apiGetProducts } from "../apis/product";
-import { CustomSlider } from "./";
 import bannerBottom from "../assets/banner-bottom.png";
 import bannerBottom1 from "../assets/banner-bottom1.png";
 import { useDispatch, useSelector } from "react-redux";
 import { getNewProducts } from "../store/products/asyncActions";
+import { CustomSlider } from "./";
 const tabs = [
   { id: 1, name: "best sellers" },
   {
